@@ -1,0 +1,26 @@
+name: c2_haryo_191_userlist
+description: "My User List Project of Mobile Programming III"
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  firebase_core: ^3.6.0
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+  http: ^1.2.2
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - "assets/images/"
